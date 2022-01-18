@@ -29,7 +29,7 @@
 
 ## 📸 Screenshots
 
-
+![gif](github/Churrascometro-Test.gif)
 
 ## :rocket: Tecnologias
 
