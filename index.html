@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Churrascometro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--Icone da guia-->
+    <link rel="icon" href="https://ai-i2.infcdn.net/icons_siandroid/png/200/14775/14775205.png" sizes="192x192">
+
+    <title>Churrascometro</title>
 </head>
 <body>
     <header>
-      <h1 id="title">Churrascômetro</h1>
-
+       <!--Logo-->
+       <img class="logo-header" src="https://ai-i2.infcdn.net/icons_siandroid/png/200/14775/14775205.png" alt="Logo">
     </header>
-
 
     <div class="container">
       <h1>Churrascômetro</h1>
 
-      
       <input type="number" name="adultos" id="adultos" placeholder="Adultos">
       <input type="number" name="criancas" id="criancas" placeholder="Criancas">
       <input type="number" name="criancas" id="duracao" placeholder="Duracao (horas)">
       <button onclick="runCalcular()">Calcular</button>
       
-
       <div id="resultado"></div>
-
-
     </div>
-
 
     <script src="./scripts/script.js"></script>
 </body>

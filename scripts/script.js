@@ -22,13 +22,13 @@ function runCalcular(){
     let qtdTotalRefrigerante = refrigerantePP(duracao) * adultos + (refrigerantePP(duracao)/ 2 * criancas);
     
     if ( (qtdTotalCarne != 0) && (qtdTotalCerveja != 0) && (qtdTotalRefrigerante != 0) ){
-        resultados.innerHTML = `<p>${qtdTotalCarne/1000} Kg de Carne</p>`
-        resultados.innerHTML += `<p>${Math.ceil(qtdTotalCerveja/355)} Latas de Cerveja</p>`
-        resultados.innerHTML += `<p>${qtdTotalRefrigerante} ml de Bebida</p>`
+        resultados.innerHTML = `<p><strong>${qtdTotalCarne/1000}</strong> Kg de Carne</p>`
+        resultados.innerHTML += `<p><strong>${Math.ceil(qtdTotalCerveja/355)}</strong> Latas de Cerveja</p>`
+        resultados.innerHTML += `<p><strong>${qtdTotalRefrigerante}</strong> ml de Bebida</p>`
     } else {
-        resultados.innerHTML = `<p> Insira todas as informações </p>`
+        resultados.innerHTML = `<h3> Informações insuficientes </h3>`
     }
-
+    console.log(criancas);
 }
 
 function carnePP(duracao){
