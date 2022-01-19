@@ -24,7 +24,7 @@
 ## 💻 Sobre o projeto
 
 - Projeto desenvolvido durante o **Curso Programador BR**.
-- Objetivo consiste em elaborar um sistema em JavaScript que calcula a quantidade necessária de comida e bebida para um churrasco.
+- Consiste em elaborar um sistema em JavaScript que calcula a quantidade necessária de comida e bebida para um churrasco.
 
 ## 📸 Screenshots
 
